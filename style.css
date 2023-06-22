@@ -1,0 +1,22 @@
+h2 {
+  text-align: center;
+  color: red;
+  font-style: italic;
+}
+.skill-header,
+.exp-header {
+  text-align: left;
+}
+.skill-container,
+.exp-container {
+  border: solid coral;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: lightblue;
+}
