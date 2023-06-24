@@ -3,13 +3,17 @@ h2 {
   color: red;
   font-style: italic;
 }
+.Head {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
 .skill-header,
 .exp-header {
   text-align: left;
 }
 .skill-container,
 .exp-container {
-  border: solid coral;
+  border: dashed coral;
   width: 400px;
   margin-left: auto;
   margin-right: auto;
@@ -18,5 +22,9 @@ h2 {
 }
 
 body {
-  background-color: lightblue;
+  background-color: #e6e6fa;
+}
+
+p {
+  font-family: Georgia, serif;
 }
