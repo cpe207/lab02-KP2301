@@ -33,7 +33,7 @@ h3 {
 }
 
 body {
-  background-color: #adadd8;
+  background-color: #adadd8 !important;
   color: rgb(127, 16, 149);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
