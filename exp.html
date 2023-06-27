@@ -14,43 +14,57 @@
 
   </head>
   <body>
-    <h1 class="Head m-1 mt-1">My Portfolio</h1>
-    <ul class="Navbar m-1 mb-3">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="exp.html">Experience</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="contact.html">Contact Me</a></li>
-    </ul>
-
-    <img
+    <header>
+      <div class="flex-wrap">
+        <h1 class="Head m-1 mt-1">My Portfolio</h1>
+        <ul class="Navbar m-1 mb-3 flex-wrap">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="exp.html">Experience</a></li>
+          <li><a href="gallery.html" >Gallery</a></li>
+          <li style="float: right; border-left: 1px solid white">
+            <a href="contact.html">Contact Me</a>
+          </li>
+          <a href="https://myaccount.microsoft.com/?ref=MeControl"><li style="float: right; padding: 12px 16px;" class="btn" >📧📧📧</li></a>
+        </ul>
+      </div>
+    </header>
+    <!-- sub-Profile -->
+      <img
       src="images/20220613_135214.jpg"
       width="300px"
       height="300px"
       style="margin-left: auto; margin-right: auto; display: block; border-radius: 50%;"
-    />
-
-    <p>
-      <h3>Kittiwin Phannachet</h3>
-      <h3>กิตติวินท์ พรรณเชษฐ์</h3>
-    </p>
-    <p align="center">
-      Hello My name is Kittiwin Phannachet.&nbsp;Nice to meet you
-    </p>
-    <div>
-      <h3 class="m-3">Experience</h3>
-      <div class="exp-container">
-        <h3 class="exp-header">Project</h3>
-        <p align="left">
-          Me and my friend created game that is o678.com. It include poker 🃏🃏🃏,
-          blackjack ♠️♥️♦️♦️♣️ ,and slot 🎰🎰🎰.
-        </p>
-      </div>
-      <div class="exp-container">
-        <h3 class="exp-header">Hobby</h3>
-        <p align="left">I like watching movie 🎶🎶 or playing genshin impact 😍😍😍.</p>
-      </div>
-    </div>
+      />
+      <p>
+        <h3>Kittiwin Phannachet</h3>
+        <h3>กิตติวินท์ พรรณเชษฐ์</h3>
+      </p>
+      <p align="center">
+        Hello My name is Kittiwin Phannachet.&nbsp;Nice to meet you.
+      </p>
+    </header>
+    <!-- exp -->
+    <h3 class="m-4">Experience</h3>
     
-    <p style="text-align: center" class="belowContact"><a href="contact.html" style="color:white">Contact Me!!</a></p>
+      <div class="exp-container d-flex gap-3">
+        <div><img src="images/Screenshot 2023-06-27 162647.png" width="150px" height="150px" style="border-radius: 10%;"></div>
+        <div>
+          <h3 class="exp-header">Project</h3>
+          <div>
+            Me and my friend created game that is o678.com. It include poker 🃏🃏🃏,
+            blackjack ♠️♥️♦️♦️♣️ ,and slot 🎰🎰🎰.
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-container d-flex gap-3">
+        <div><img src="images/genshin.jpeg" style="border-radius: 10%;"width="150px" height="150px"></div>
+        <div>
+          <h3 class="exp-header">Hobby</h3>
+          <div>I like watching movie 🎶🎶 or playing genshin impact 😍😍😍.</div>
+        </div>
+      </div>
+    <!-- contact -->
+    <p style="text-align: center" class="belowContact"><a href="contact.html" style="color:white; text-decoration: none;">Contact Me!!</a></p>
   </body>
 </html>

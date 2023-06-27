@@ -13,14 +13,21 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1 class="Head m-1 mt-1">My Portfolio</h1>
-    <ul class="Navbar m-1 mb-3">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="exp.html">Experience</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="contact.html">Contact Me</a></li>
-    </ul>
-
+    <header>
+      <div class="flex-wrap">
+        <h1 class="Head m-1 mt-1">My Portfolio</h1>
+        <ul class="Navbar m-1 mb-3 flex-wrap">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="exp.html">Experience</a></li>
+          <li><a href="gallery.html" >Gallery</a></li>
+          <li style="float: right; border-left: 1px solid white">
+            <a href="contact.html">Contact Me</a>
+          </li>
+          <a href="https://myaccount.microsoft.com/?ref=MeControl"><li style="float: right; padding: 12px 16px;" class="btn" >📧📧📧</li></a>
+        </ul>
+      </div>
+    </header>
+    <!-- sub-profile -->
     <div>
       <img
         src="images/20220613_135214.jpg"
@@ -33,17 +40,16 @@
         <h3>กิตติวินท์ พรรณเชษฐ์</h3>
       </p>
       <p align="center">
-        Hello My name is Kittiwin Phannachet.&nbsp;Nice to meet you
+        Hello My name is Kittiwin Phannachet.&nbsp;Nice to meet you.
       </p>
     </div>
-    
+    <!-- contact -->
     <div class="belowContact" style="color:white">
       <h3 style="color: white;">Contact Me</h3>
       <p align="center">
         E-mail ✉️📨📧 :
-        <a href="https://myaccount.microsoft.com/?ref=MeControl" style="color:white"
-          >kittiwin_phannachet@cmu.ac.th</a
-        >
+        <a href="https://myaccount.microsoft.com/?ref=MeControl" style="color:white; text-decoration: none;"
+          >kittiwin_phannachet@cmu.ac.th</a>
         <br />
         Tel 📞📞📳📳 : 062-309-7264
       </p>

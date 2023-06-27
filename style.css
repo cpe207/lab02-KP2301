@@ -1,7 +1,8 @@
 h3 {
   text-align: center;
   color: rgb(161, 33, 212);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: italic;
 }
 
@@ -10,7 +11,8 @@ h3 {
   margin: 0%;
   padding: 40px;
   color: rgb(255, 255, 255);
-  font-family : 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: italic;
   background-color: #2f00ff3f;
   text-align: center;
@@ -31,12 +33,14 @@ h3 {
   padding: 16px;
   padding-bottom: auto;
   margin-bottom: 10px;
+  border-radius: 5%;
 }
 
 body {
   background-color: #adadd8;
-  color: rgb(127, 16, 149);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(129, 13, 152);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 p {
@@ -59,9 +63,8 @@ li {
 }
 
 li a {
-  display: inline-block;
+  display: block;
   color: white;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -69,10 +72,15 @@ li a {
 
 .belowContact {
   padding: 10px 16px;
-  margin-bottom: 0%;
+  margin-bottom: 2px;
   margin-top: 4%;
   margin-right: 3px;
   margin-left: 3px;
   background-color: #2f00ff72;
   text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.gallery-card{
+  color: white;
+  background-color: #2f00ff72;
 }
