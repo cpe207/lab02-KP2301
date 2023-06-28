@@ -35,7 +35,7 @@ h3 {
 .skill-container,
 .exp-container {
   border: dashed 4px rgb(246, 131, 89);
-  width: 500px;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   padding: 16px;
